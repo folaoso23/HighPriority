@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+       <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828"
+    android:orientation="vertical" >
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lblTxt"
+        
+        android:layout_margin="30dp"
+       	android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Loading..."
+        android:textColor="#00FFFF"
+        
+        />    
+
+</RelativeLayout>
